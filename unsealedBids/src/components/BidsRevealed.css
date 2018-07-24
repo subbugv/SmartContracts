@@ -1,0 +1,38 @@
+/* .Table {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 1px solid #1c6ea4;
+  background-color: #eeeeee;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 10px 20px;
+  padding: 1em; 
+  table-layout: fixed;
+} */
+
+.Thead {
+    background: rgb(143, 169, 185);
+    border-bottom: 2px solid #444444;
+  }
+
+.Td, .Th {
+  border: 1px solid #272829;
+  background: #c6e6e0;
+  padding: 3px 2px;
+  word-break: break-all;
+  overflow: hidden;  
+  column-width: auto;
+  text-align: center;
+  min-width: 100px ;
+}
+
+.Tr:nth-child(even) {
+    background: #D0E4F5;
+    max-width: max-content;
+    min-width: fit-content;
+}
+
+.Tbody td {
+    font-size: 13px;
+  }
